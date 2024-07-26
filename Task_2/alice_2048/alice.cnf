@@ -1,0 +1,11 @@
+[req] 
+prompt = no 
+distinguished_name = alice_dn
+input_password = alice 
+
+[alice_dn] 
+CN = Alicel.com
+emailAddress = Alice1@gmail.com 
+O = Alice1 
+L = Nagpur 
+C = IN

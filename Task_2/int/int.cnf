@@ -1,0 +1,11 @@
+[req] 
+prompt = no 
+distinguished_name = int_ca 
+input_password = int 
+
+[int_ca] 
+CN = iTS CA 1R3 
+emailAddress = intCA@gmail.com
+O = iTS CA 1R3 
+L = Nashik 
+C = IN

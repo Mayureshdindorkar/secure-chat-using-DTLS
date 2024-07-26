@@ -1,0 +1,3 @@
+authorityKeyIdentifier = keyid:always,issuer:always
+basicConstraints       = CA:TRUE
+keyUsage               = critical,keyCertSign,cRLSign

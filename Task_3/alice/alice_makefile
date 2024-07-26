@@ -1,0 +1,10 @@
+EXECUTABLE = ./secure_chat_app
+HOSTNAME := $(shell hostname)
+
+.PHONY: all clean
+
+all:
+	cd .. && $(EXECUTABLE) -c $(HOSTNAME)
+
+clean:
+	# No need to clean the executable

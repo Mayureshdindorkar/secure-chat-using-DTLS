@@ -1,0 +1,9 @@
+EXECUTABLE = ./secure_chat_app
+
+.PHONY: all clean
+
+all:
+	cd .. && $(EXECUTABLE) -s
+
+clean:
+	# No need to clean the executable
